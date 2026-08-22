@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day09三种CSS引入对比</title>
+    <style>
+      /*内部样式*/
+      .inner {
+        color: blue;
+        font: size 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--行内样式-->
+    <p style="color: red; font-size: 20px">这是【行内样式】</p>
+    <p class="inner">这是【内部样式】</p>
+    <p>这是【外部样式】（就是昨天day08写的）</p>
+  </body>
+</html>
